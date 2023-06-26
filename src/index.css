@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+}
+
+.header {
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  height: 50px;
+}
+
+.homePage, .employeePage {
+  display: inline-block;
+  height: 100vh;
+  width: 50%;
+  padding: 20px;
+}
+
+.listItem, .bigEmployee {
+  display: flex;
+  align-items: center;
+}
+
+.bigEmployee {
+  justify-content: center;
+}
+
+.listItemAvatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.listItemTitle {
+  margin: auto 30px;
+}
+
+.employeePage {
+  text-align: center;
+}
+
+
+.bigAvatar {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin-right: 50px;
+  object-fit: cover;
+}
+
+.bigTitle {
+  text-align: left;
+  height: 150px;
+}
+
+h3, h4 {
+  color: darkgrey;
+}
